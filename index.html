@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendar with Weather and Historical Events</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div class="Box">
+      <div class="calendar">
+        <div class="header">
+                <button id="prev-month-btn" class="btn white-text "><i class="material-icons"><=</i></button>
+                <h2 id="current-month"></h2>
+                <button id="next-month-btn" class="btn white-text"><i class="material-icons">=></i></button>
+              </div>
+              <div class="days" id="calendar-body"></div>
+              <div class="btn-container">
+                <button id="today-btn" class="btn-flat">Today</button>
+              </div>
+              <div class="clock" id="clock"></div>
+              <div class="hide-clock">
+                  <button id="toggle-clock-btn" class="btn">Show Clock</button>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
